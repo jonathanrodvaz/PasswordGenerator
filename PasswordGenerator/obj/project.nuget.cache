@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZxrFbAJo8X5j01GOvIHbvSkcV5GSOIKREJuiibfureIUguJnIFlIjQc5mUkdg4etNUkgivy4UufXZ25BFjK4SA==",
+  "dgSpecHash": "mJMxyOq150TgFccRrHGWzcSe/LqBT4UF2jh+oHujbveT8D61lwizZxB+bU3k0+wyaCFLKLsy1UIdT9Gbq0HOjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhrva\\Desktop\\Proyectos\\C-Sharp_Projects\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator.csproj",
+  "projectFilePath": "C:\\Users\\jhrva\\Desktop\\Proyectos\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

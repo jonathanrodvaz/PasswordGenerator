@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhrva\\Desktop\\Proyectos\\C-Sharp_Projects\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator.csproj",
+      "projectUniqueName": "C:\\Users\\jhrva\\Desktop\\Proyectos\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator.csproj",
       "projectName": "PasswordGenerator",
-      "projectPath": "C:\\Users\\jhrva\\Desktop\\Proyectos\\C-Sharp_Projects\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator.csproj",
+      "projectPath": "C:\\Users\\jhrva\\Desktop\\Proyectos\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator.csproj",
       "packagesPath": "C:\\Users\\jhrva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhrva\\Desktop\\Proyectos\\C-Sharp_Projects\\PasswordGenerator\\PasswordGenerator\\PasswordGenerator\\obj\\",
+      "outputPath": "C:\\Users\\jhrva\\Desktop\\Proyectos\\PasswordGenerator\\PasswordGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

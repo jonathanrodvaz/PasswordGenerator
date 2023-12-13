@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            txtNewPassword = new TextBox();
             label1 = new Label();
             label2 = new Label();
             txtPasswordLength = new TextBox();
@@ -39,13 +39,14 @@
             btnGeneratePassword = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txtNewPassword
             // 
-            textBox1.Location = new Point(163, 62);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(499, 159);
-            textBox1.TabIndex = 0;
+            txtNewPassword.Location = new Point(163, 62);
+            txtNewPassword.Multiline = true;
+            txtNewPassword.Name = "txtNewPassword";
+            txtNewPassword.Size = new Size(499, 159);
+            txtNewPassword.TabIndex = 0;
+            txtNewPassword.KeyPress += txtNewPassword_KeyPress;
             // 
             // label1
             // 
@@ -71,7 +72,7 @@
             // 
             txtPasswordLength.Location = new Point(459, 240);
             txtPasswordLength.Name = "txtPasswordLength";
-            txtPasswordLength.Size = new Size(32, 23);
+            txtPasswordLength.Size = new Size(54, 23);
             txtPasswordLength.TabIndex = 6;
             // 
             // chkIncludesUppercase
@@ -81,9 +82,9 @@
             chkIncludesUppercase.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             chkIncludesUppercase.Location = new Point(325, 264);
             chkIncludesUppercase.Name = "chkIncludesUppercase";
-            chkIncludesUppercase.Size = new Size(163, 25);
+            chkIncludesUppercase.Size = new Size(167, 25);
             chkIncludesUppercase.TabIndex = 9;
-            chkIncludesUppercase.Text = "Includes Uppercase";
+            chkIncludesUppercase.Text = "Includes Uppercase ";
             chkIncludesUppercase.UseVisualStyleBackColor = true;
             // 
             // chkIncludesLowerCase
@@ -130,13 +131,14 @@
             btnGeneratePassword.TabIndex = 13;
             btnGeneratePassword.Text = "Generate!";
             btnGeneratePassword.UseVisualStyleBackColor = true;
+            btnGeneratePassword.Click += btnGeneratePassword_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.CadetBlue;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(773, 455);
             Controls.Add(btnGeneratePassword);
             Controls.Add(chkIncludesSymbols);
             Controls.Add(chkIncludesNumbers);
@@ -145,7 +147,7 @@
             Controls.Add(txtPasswordLength);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(txtNewPassword);
             Name = "Form1";
             Text = "PasswordGenerator";
             ResumeLayout(false);
@@ -154,7 +156,7 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox txtNewPassword;
         private Label label1;
         private Label label2;
         private TextBox txtPasswordLength;
